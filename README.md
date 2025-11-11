@@ -2,6 +2,7 @@
 - [Repository Description](#repository-description)
 - [Repository Structure](#repository-structure)
   - [Tutorial 1](#tutorial-1)
+  - [Tutorial 2](#tutorial-2)
 - [Author](#author)
 
 # Repository Description
@@ -13,9 +14,20 @@ used while teaching.
 
 # Repository Structure
 
+Here is an overview of the exercises by topics:
+
+| Topics             | Tutorial Nr. | Exercises  |
+|--------------------|--------------|------------|
+| Main               | T1           | T1.DEMO    |
+| OOP                | T1           | T1.1, T1.2 |
+| Data Types         | T1, T2       | T2.1       |
+| Control Structures | T2           | T2.2, T2.3 |
+
 ## Tutorial 1
 
-First tutorial was an introduction to java. The following topics were discussed:
+First tutorial was an introduction to java. 
+
+Topics discussed:
 - Main Program
 - Objects & Classes (OOP)
 - Data Types
@@ -32,6 +44,30 @@ This exercise is beginner-friendly. It uses the basics of OOP concept
 This one was a bit more challenging task. Which requires a better
 understanding of the OOP concept. This task also demonstrates
 how a game could be written in an OOP environment.
+
+## Tutorial 2
+
+Started diving into general java structure.
+
+Topics discussed:
+- Data Types
+- `If` Statements
+- `Switch` Cases
+- `For` Loops
+- `While` Loops
+- `do-While` Loops
+
+### Exercise 1
+A short code inspection task. It requires deeper knowledge on how
+some data type operators function. 
+
+### Exercise 2
+This task is again beginner-friendly and requires only fair bit of knowledge on
+differences between loop types.
+
+### Exercise 3
+This task requires understanding how the control structures can be used
+together and how they will be implemented in real life situations.
 
 # Author
 
