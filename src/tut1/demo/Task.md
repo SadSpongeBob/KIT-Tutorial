@@ -1,5 +1,6 @@
 # Task Description
 
+Implement the following under `main`:
 - Input: exactly two `String` arguments
 - Output: `"Say #1 to #2"`
 

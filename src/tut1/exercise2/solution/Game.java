@@ -1,4 +1,4 @@
-package tut1.exercise2;
+package tut1.exercise2.solution;
 
 class Game {
     // Attributes

@@ -1,4 +1,4 @@
-package tut1.exercise1;
+package tut1.exercise1.solution;
 
 class Building {
     // Attributes
