@@ -4,7 +4,9 @@
   - [Downside of `ZIP`](#downside-of-zip)
   - [Cloning via `HTTPS`](#cloning-via-https)
   - [Cloning via `SSH`](#cloning-via-ssh)
+  - [Usage of Git](#usage-of-git)
   - [Downloading as `ZIP`](#downloading-as-zip)
+- [How to Use Repository](#how-to-use-repository)
 - [Repository Structure](#repository-structure)
   - [Tutorial 1](#tutorial-1)
   - [Tutorial 2](#tutorial-2)
@@ -20,7 +22,7 @@ used while teaching.
 
 # Cloning the Repository
 
-Cloning this repository can be done using Git in three common ways:
+Cloning this repository can be done in three common ways:
 - With `HTTPS` cloning
 - With `SSH` cloning
 - Downloading the `ZIP` file
@@ -37,11 +39,31 @@ strongly do **not** recommend.
 This is a fairly simple process. If you are not too eager to use Git that often
 you might want to clone via `HTTPS`. Here are the steps:
 
-
 1. Click inside of GitHub, on the **green** `<> code` button
 2. Select `HTTPS`
 3. Copy the given web URL
-4. Clone:
+4. [Use Git to clone](#usage-of-git)
+
+## Cloning via `SSH`
+
+If you already have a `SSH` setup, jump to 10
+
+1. Create `SSH` key: [Creating SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. Find your generated **public** key
+3. Open it using a text editor
+4. Copy the key
+5. Go into GitHub
+6. Go into Settings > SSH and GPG keys
+7. Select `New SSH Key`
+8. Enter a title and select `Authentication` for key type
+9. Paste your public key
+10. Go to the GitHub page of this repository
+11. Click inside of GitHub, on the **green** `<> code` button
+12. Select `SSH`
+13. Copy the URL
+14. [Use Git to clone](#usage-of-git)
+
+## Usage of Git
 
 ### Intellij
 
@@ -77,15 +99,11 @@ This will create a new folder inside your directory as `tut-exercises`
 
 TODO: I'll try to add
 
-## Cloning via `SSH`
-
-TODO: I'll try to add
-
 ## Downloading as `ZIP`
 
 This is simply downloading the project without using Git at all.
-As mentioned above you will have to manually download the project after each
-change in the repo.
+As mentioned [above](#downside-of-zip) you will have to manually 
+download the project after each change in the repo.
 
 1. Click inside of GitHub, on the **green** `<> code` button
 2. Click at the bottom on `Download ZIP`
@@ -94,6 +112,20 @@ change in the repo.
 5. Select `Extract all`
 6. Enter the location you want
 7. Open the project in your IDE
+
+# How to Use Repository
+
+Basically the repository can be used in any way necessary.
+Opening other branches for expansion is allowed. And after a
+review may be merged.
+
+The recommended usage is as follows:
+1. Clone the repository in to your IDE
+2. Go through the exercises and read the `Task.md` file
+3. Try to solve the tasks by yourself
+4. You can find the solutions under `/solution`
+5. After each tutorial, the solutions to the already uploaded tasks
+will be shared. Try to update your branch regularly
 
 # Repository Structure
 
