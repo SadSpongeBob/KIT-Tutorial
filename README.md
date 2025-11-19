@@ -7,6 +7,7 @@
   - [Usage of Git](#usage-of-git)
   - [Downloading as `ZIP`](#downloading-as-zip)
 - [How to Use Repository](#how-to-use-repository)
+- [Updating the Branch](#updating-the-branch)
 - [Repository Structure](#repository-structure)
   - [Tutorial 1](#tutorial-1)
   - [Tutorial 2](#tutorial-2)
@@ -125,7 +126,21 @@ The recommended usage is as follows:
 3. Try to solve the tasks by yourself
 4. You can find the solutions under `/solution`
 5. After each tutorial, the solutions to the already uploaded tasks
-will be shared. Try to update your branch regularly
+will be shared. Try to [update](#updating-the-branch) your branch regularly
+
+# Updating the Branch
+
+Given that you want to update your local `main` branch, you have to:
+1. Fetch the updates
+    ```bash
+    git fetch --all
+    ```
+2. Merge the changes into your branch
+    ```bash
+    git merge origin/main
+    ```
+3. If necessary solve conflicts
+
 
 # Repository Structure
 
