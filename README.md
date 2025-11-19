@@ -3,6 +3,7 @@
 - [Repository Structure](#repository-structure)
   - [Tutorial 1](#tutorial-1)
   - [Tutorial 2](#tutorial-2)
+  - [Tutorial 3](#tutorial-3)
 - [Author](#author)
 
 # Repository Description
@@ -16,12 +17,15 @@ used while teaching.
 
 Here is an overview of the exercises by topics:
 
-| Topics             | Tutorial Nr. | Exercises  |
-|--------------------|--------------|------------|
-| Main               | T1           | T1.DEMO    |
-| OOP                | T1           | T1.1, T1.2 |
-| Data Types         | T1, T2       | T2.1       |
-| Control Structures | T2           | T2.2, T2.3 |
+| Topics                | Tutorial Nr. | Exercises  |
+|-----------------------|--------------|------------|
+| Main                  | T1           | T1.DEMO    |
+| OOP                   | T1           | T1.1, T1.2 |
+| Data Types            | T1, T2       | T2.1       |
+| Control Structures    | T2           | T2.2, T2.3 |
+| Scanner               | T3           | T3.1       |
+| Methods & Overloading | T3           | T3.2       |
+| Constructors          | T3           | T3.2       |
 
 ## Tutorial 1
 
@@ -68,6 +72,27 @@ differences between loop types.
 ### Exercise 3
 This task requires understanding how the control structures can be used
 together and how they will be implemented in real life situations.
+
+## Tutorial 3
+
+Talked about `Java.util.Scanner` inputs and how methods in java work.
+
+Topics discussed:
+- `instanceof` & type casting
+- `Scanner`
+- Methods
+- Method Overloading
+- Constructors
+- Static Methods
+- JavaDocs
+
+### Exercise 1
+A homework-similar task on how to work with `Scanner`. Creating a command-input
+structure that is later on used in various programs for I/O.
+
+### Exercise 2
+A general modelling task for practicing method implementations and
+method overloading. This task also contains a basic OOP implementation.
 
 # Author
 
