@@ -1,5 +1,10 @@
 # Table of Contents
 - [Repository Description](#repository-description)
+- [Cloning the Repository](#cloning-the-repository)
+  - [Downside of `ZIP`](#downside-of-zip)
+  - [Cloning via `HTTPS`](#cloning-via-https)
+  - [Cloning via `SSH`](#cloning-via-ssh)
+  - [Downloading as `ZIP`](#downloading-as-zip)
 - [Repository Structure](#repository-structure)
   - [Tutorial 1](#tutorial-1)
   - [Tutorial 2](#tutorial-2)
@@ -12,6 +17,83 @@ The goal of this repository is to make the code examples, written in the program
 tutorials, achievable and downloadable by others. The repository can also be used
 by others for educational purposes or as an example to the tasks, that may be
 used while teaching.
+
+# Cloning the Repository
+
+Cloning this repository can be done using Git in three common ways:
+- With `HTTPS` cloning
+- With `SSH` cloning
+- Downloading the `ZIP` file
+
+## Downside of `ZIP`
+
+Before we jump into cloning; you should note that if cloned via `ZIP`, you
+won't be able to update the repository on each change. You will have to
+download the repository manually each time there is a change. Which i
+strongly do **not** recommend.
+
+## Cloning via `HTTPS`
+
+This is a fairly simple process. If you are not too eager to use Git that often
+you might want to clone via `HTTPS`. Here are the steps:
+
+
+1. Click inside of GitHub, on the **green** `<> code` button
+2. Select `HTTPS`
+3. Copy the given web URL
+4. Clone:
+
+### Intellij
+
+[How to clone a GitHub Project into Intellij](https://blog.jetbrains.com/idea/2020/10/clone-a-project-from-github/)
+
+1. Open Intellij
+2. If you already have a project open on IntelliJ:
+   1. Click on the `File` tab
+   2. Select `New`
+   3. Select `Project from Version Control`
+3. Else if no project is currently open:
+   1. Click on `Get from VCS`
+4. Enter the copied URL
+5. Hit `clone`
+
+
+### Local
+
+[How to clone a GitHub Project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+1. Open the folder you want to set the repo in
+2. Right click inside the folder
+3. Select `Open Git GUI here`
+4. Click `Clone Existing Repository`
+5. Enter the URL in `Source Location`
+6. Choose the folder you want in `Target Directory`
+7. At the end of your selected `Target Directory`, add `/tut-exercises`.
+This will create a new folder inside your directory as `tut-exercises`
+8. Select `Recurisvely clone submodules`
+9. Hit `clone`
+
+### Eclipse
+
+TODO: I'll try to add
+
+## Cloning via `SSH`
+
+TODO: I'll try to add
+
+## Downloading as `ZIP`
+
+This is simply downloading the project without using Git at all.
+As mentioned above you will have to manually download the project after each
+change in the repo.
+
+1. Click inside of GitHub, on the **green** `<> code` button
+2. Click at the bottom on `Download ZIP`
+3. Go into your `Downloads`
+4. Right click on `ZIP`
+5. Select `Extract all`
+6. Enter the location you want
+7. Open the project in your IDE
 
 # Repository Structure
 
