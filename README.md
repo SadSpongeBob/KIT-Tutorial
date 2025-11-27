@@ -12,6 +12,7 @@
   - [Tutorial 1](#tutorial-1)
   - [Tutorial 2](#tutorial-2)
   - [Tutorial 3](#tutorial-3)
+  - [Tutorial 4](#tutorial-4)
 - [Author](#author)
 
 # Repository Description
@@ -146,15 +147,20 @@ Given that you want to update your local `main` branch, you have to:
 
 Here is an overview of the exercises by topics:
 
-| Topics                | Tutorial Nr. | Exercises  |
-|-----------------------|--------------|------------|
-| Main                  | T1           | T1.DEMO    |
-| OOP                   | T1           | T1.1, T1.2 |
-| Data Types            | T1, T2       | T2.1       |
-| Control Structures    | T2           | T2.2, T2.3 |
-| Scanner               | T3           | T3.1       |
-| Methods & Overloading | T3           | T3.2       |
-| Constructors          | T3           | T3.2       |
+| Topics                  | Tutorial Nr. | Exercises  |
+|-------------------------|--------------|------------|
+| Main                    | T1           | T1.DEMO    |
+| OOP                     | T1           | T1.1, T1.2 |
+| Data Types              | T1, T2       | T2.1       |
+| Control Structures      | T2           | T2.2, T2.3 |
+| Scanner                 | T3           | T3.1       |
+| Methods & Overloading   | T3           | T3.2       |
+| Constructors            | T3           | T3.2       |
+| Arrays                  | T4           | T4.1       |
+| Multidimensional Arrays | T4           | T2.3       |
+| Modifiers               | T4           | T4.2       |
+| Encapsulation           | T4           | T4.2       |
+
 
 ## Tutorial 1
 
@@ -222,6 +228,26 @@ structure that is later on used in various programs for I/O.
 ### Exercise 2
 A general modelling task for practicing method implementations and
 method overloading. This task also contains a basic OOP implementation.
+
+## Tutorial 4
+
+New data structure: Arrays. Also explained access modifiers and
+encapsulation principle.
+
+Topics:
+- Arrays
+- Multidimensional Arrays
+- Packages
+- Encapsulation Principle
+- Access Modifiers
+
+### Exercise 1
+Array iteration tasks. How to go through arrays and how to make use of them.
+
+### Exercise 2
+This exercise is a static one. No coding. Just analyzing.
+Exercise is for repeating the encapsulation principle and testing the
+current understanding of java modifiers.
 
 # Author
 
