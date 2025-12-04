@@ -1,4 +1,4 @@
-package tut5.exercise2;
+package tut5.exercise3;
 
 class CustomList {
     private CustomListElement head = null;

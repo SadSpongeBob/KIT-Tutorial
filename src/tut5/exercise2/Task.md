@@ -1,35 +1,17 @@
 # Task Description
 
-Implement the class [CustomList](CustomList.java)
-to create a `singly-linked list` which can hold elements of type `Integer`.
+Revisiting the swimming pool system:
+- Pool will hold information on each swimming session
+- Each session has a capacity of 25 students
 
-```java
-class CustomList {
-    private CustomListElement head = null;
-    private CustomListElement tail = null;
-    private int size = 0;
+Implement the system from [`T3.2`](/tut3/exercise2/Task.md) using `Lists`:
+- `Pool::addSession` should add a new session to the pool
+- `Pool::getSession` should return the session with passed 
+`sessionId`, `null` otherwise
+- `Pool::clearSessions` should clear the session information of pool
 
-    public Integer getTail() {
-        // TODO: Implement me
-    }
 
-    public void insertTail(Integer value) {
-        // TODO: Implement me
-    }
-
-    public Integer removeHead() {
-        // TODO: Implement me
-    }
-
-    public boolean contains(Integer value) {
-        // TODO: Implement me
-    }
-}
-```
-
-For this you should use [CustomElements](CustomListElement.java)
-as list items. And implement the methods:
-- `getTail` : returns the value of last item in list
-- `insertTail` : inserts a new value at the end of list
-- `removeHead` : removes the first item in list and returns its value
-- `contains` : checks if the list contains the value
+- `Session::getAllStudents` should return a `List` of the students registered
+to that session
+- `Session::addStudent` should, if there is enough place, add a student
+to that session
