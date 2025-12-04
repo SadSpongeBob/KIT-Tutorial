@@ -13,6 +13,7 @@
   - [Tutorial 2](#tutorial-2)
   - [Tutorial 3](#tutorial-3)
   - [Tutorial 4](#tutorial-4)
+  - [Tutorial 5](#tutorial-5)
 - [Author](#author)
 
 # Repository Description
@@ -160,6 +161,10 @@ Here is an overview of the exercises by topics:
 | Multidimensional Arrays | T4           | T2.3       |
 | Modifiers               | T4           | T4.2       |
 | Encapsulation           | T4           | T4.2       |
+| Equals method           | T5           | T5.1       |
+| Lists                   | T5           | T5.2       |
+| Abstract Data Types     | T5           | T5.2       |
+| Linked List             | T5           | T5.3       |
 
 
 ## Tutorial 1
@@ -248,6 +253,34 @@ Array iteration tasks. How to go through arrays and how to make use of them.
 This exercise is a static one. No coding. Just analyzing.
 Exercise is for repeating the encapsulation principle and testing the
 current understanding of java modifiers.
+
+## Tutorial 5
+
+New data structure: Lists. Talked about abstract data types and
+base operations of lists.
+
+Topics:
+- `equals` & `hashCode`
+- `toString`
+- Abstract Data Types
+- Lists
+- Iterator
+
+### Exercise 1
+How to implement the common `equals`, `hashCode` and `toString`
+methods for classes.
+
+### Exercise 2
+Revisited the pool service implementation from [tutorial 3](#tutorial-3).
+This time instead of arrays, the service was to be implemented using
+the lists.
+
+### Exercise 3
+This is a common data structure exercise, where you have to
+implement the necessary methods for a (singly-) linked list.
+The exercise is to help understand how the common data structures
+are implemented in programming languages.
+
 
 # Author
 
