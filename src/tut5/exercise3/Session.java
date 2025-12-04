@@ -17,4 +17,8 @@ class Session {
         // TODO: Implement me
         return false;
     }
+
+    public String getSessionId() {
+        return sessionId;
+    }
 }
