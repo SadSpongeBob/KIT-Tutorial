@@ -14,6 +14,7 @@
   - [Tutorial 3](#tutorial-3)
   - [Tutorial 4](#tutorial-4)
   - [Tutorial 5](#tutorial-5)
+  - [Tutorial 6](#tutorial-6)
 - [Author](#author)
 
 # Repository Description
@@ -165,6 +166,10 @@ Here is an overview of the exercises by topics:
 | Lists                   | T5           | T5.2       |
 | Abstract Data Types     | T5           | T5.2       |
 | Linked List             | T5           | T5.3       |
+| Inheritance             | T6           | T6.1, T6.2 |
+| Dynamic Binding         | T6           | T6.1       |
+| Abstract Class          | T6           | T6.2       |
+
 
 
 ## Tutorial 1
@@ -280,6 +285,25 @@ This is a common data structure exercise, where you have to
 implement the necessary methods for a (singly-) linked list.
 The exercise is to help understand how the common data structures
 are implemented in programming languages.
+
+## Tutorial 6
+
+New class type: `abstract`. Explained inheritance and how dynamic binding
+works. And showed how abstract classes work.
+
+Topics:
+- Inheritance
+- Dynamic Binding
+- Abstract Classes
+
+### Exercise 1
+An exam question from WS 23/24. A common question on how dynamic
+binding works and which methods will get called. This is a static
+exercise, you should be able to guess the result without running the code
+
+### Exercise 2
+This exercise is more on the practice side of how inheritance should work.
+It requires some basic knowledge on how abstract classes work.
 
 
 # Author
