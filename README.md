@@ -26,6 +26,8 @@ tutorials, achievable and downloadable by others. The repository can also be use
 by others for educational purposes or as an example to the tasks, that may be
 used while teaching.
 
+The slides from the tutorials can also be found under `/slides`.
+
 # Cloning the Repository
 
 Cloning this repository can be done in three common ways:
