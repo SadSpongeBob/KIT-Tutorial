@@ -16,6 +16,7 @@
   - [Tutorial 5](#tutorial-5)
   - [Tutorial 6](#tutorial-6)
   - [Tutorial 7](#tutorial-7)
+  - [Tutorial 9](#tutorial-9)
 - [Author](#author)
 
 # Repository Description
@@ -171,6 +172,7 @@ Here is an overview of the exercises by topics:
 | Dynamic Binding         | T6           | T6.1       |
 | Abstract Class          | T6           | T6.2       |
 | Interfaces              | T7           | T7.1, T7.2 |
+| Java API (Maps, Sets..) | T9           | T9.1       |
 
 
 
@@ -323,6 +325,17 @@ be able to define, implement and use interfaces in object modelling.
 ### Exercise 2
 This exercise represents more of a real life situation in which
 interfaces come in handy.
+
+
+## Tutorial 9
+
+Dove into Java API and explained how to use provided classes efficiently.
+These include Collection, Maps and Optionals.
+Additionally went through OOP principles including SOLID and encapsulation.
+
+Topics:
+- Java API
+- OOP Principles
 
 # Author
 
